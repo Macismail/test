@@ -2,28 +2,39 @@
 <html>
 	<head>
 		<title> PHP </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<div>
+			
+		
 		<h1> My first PHP!</h1>
 		
 		<?php
-			$_post['fname'];
-			$_post['lname'];			
-			$_post['bTitle'];
-	
-		?>
 		
-		<div>
-			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-				First Name:	<input type="text" name="fName" value="First_Name"></br></br>
-				Last Name: <input type="text" name="lName" value="Last_Name"></br></br>
-				Favorite Book Title:
-				<input name="bTitle" type="text" value="Favorite_Book"></br></br><br>
-				
-				<input type="submit" name="submit" value="Submit">
-				<input type="reset" name="reset">
+			echo $_POST ['fName'];
+			echo ' </br>';
+			echo $_POST ['lName'];
+			echo ' </br>';
+			echo $_POST ['bTitle'];
+			echo ' </br>';
+	
+		?> 
+		
+		<form method="post" action="page1.php">
 			
-			</form>
+			First Name:	<input type="text" name="fName" ></br></br>
+			Last Name: <input type="text" name="lName" ></br></br>
+			Favorite Book Title:
+			<input name="bTitle" type="text"></br></br><br>
+				
+			<input type="submit" name="submit" value="Submit">
+			<input type="reset" name="reset">
+			
+		</form>
 		</div>
 			
 	</body>
