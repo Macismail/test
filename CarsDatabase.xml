@@ -1,0 +1,308 @@
+<!--
+<?xml-stylesheet href="cars.xsl" type="text/xsl"?> 
+-->
+
+<catalog>
+
+<car_size_small>
+
+<car id="s001">
+<type>Ford Ka</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>2 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€23 for 3 days</price>
+</car>
+
+<car id="s002">
+<type>Ford Ka</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>2 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€23 for 3 days</price>
+</car>
+
+<car id="s003">
+<type>Ford Ka</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>2 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€23 for 3 days</price>
+</car>
+
+<car id="s004">
+<type>Volksvagen Up</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€21 for 3 days</price>
+</car>
+
+<car id="s005">
+<type>Volksvagen Up</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€21 for 3 days</price>
+</car>
+
+<car id="s006">
+<type>Volksvagen Up</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Small bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€21 for 3 days</price>
+</car>
+
+<car id="s007">
+<type>Toyota Yaris</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€24 for 3 days</price>
+</car>
+
+<car id="s008">
+<type>Toyota Yaris</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€24 for 3 days</price>
+</car>
+
+<car id="s009">
+<type>Toyota Yaris</type>
+<seats_no>4 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€24 for 3 days</price>
+</car>
+
+</car_size_small>
+
+
+
+
+<car_size_medium>
+
+<car id="m001">
+<type>Volksvagen Polo</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€22 for 3 days</price>
+</car>
+
+<car id="m002">
+<type>Volksvagen Polo</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€22 for 3 days</price>
+</car>
+
+<car id="m003">
+<type>Volksvagen Polo</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>1 Large bag 1 Small bag</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€22 for 3 days</price>
+</car>
+
+<car id="m004">
+<type>Toyota Corolla</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€29 for 3 days</price>
+</car>
+
+<car id="m005">
+<type>Toyota Corolla</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€29 for 3 days</price>
+</car>
+
+<car id="m006">
+<type>Toyota Corolla</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€29 for 3 days</price>
+</car>
+
+<car id="m007">
+<type>Ford Focus</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€26 for 3 days</price>
+</car>
+
+<car id="m008">
+<type>Ford Focus</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€26 for 3 days</price>
+</car>
+
+<car id="m009">
+<type>Ford Focus</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags</trunk_cap>
+<air_con>Without air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€26 for 3 days</price>
+</car>
+
+</car_size_medium>
+
+
+
+<car_size_large>
+
+<car id="l001">
+<type>Toyota Avensis</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€36 for 3 days</price>
+</car>
+
+<car id="l002">
+<type>Toyota Avensis</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€36 for 3 days</price>
+</car>
+
+<car id="l003">
+<type>Toyota Avensis</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€36 for 3 days</price>
+</car>
+
+<car id="l004">
+<type>Ford Mondeo Diesel</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€38 for 3 days</price>
+</car>
+
+<car id="l005">
+<type>Ford Mondeo Diesel</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€38 for 3 days</price>
+</car>
+
+<car id="l006">
+<type>Ford Mondeo Diesel</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€38 for 3 days</price>
+</car>
+
+<car id="l007">
+<type>Renault Fluence</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€47 for 3 days</price>
+</car>
+
+<car id="l008">
+<type>Renault Fluence</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€47 for 3 days</price>
+</car>
+
+<car id="l009">
+<type>Renault Fluence</type>
+<seats_no>5 Seats</seats_no>
+<doors_no>4 Doors</doors_no>
+<trunk_cap>2 Large bags 1 Small bag</trunk_cap>
+<air_con>Air conditioning</air_con>
+<transmission>Manual transmission</transmission>
+<price>€47 for 3 days</price>
+</car>
+
+</car_size_large>
+
+</catalog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</catalog>
