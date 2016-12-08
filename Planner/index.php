@@ -29,7 +29,7 @@ echo'<br>People to Invite';
 		<th>Email</th>
 		<th>Option</th>
 	</tr>
-	<?php foreach ($user->person as $person){ ?>
+	<?php foreach ($person->person as $person){ ?>
 	<tr>
 		<td><?php echo $person['id']; ?></td>
 		<td><?php echo $person->name; ?></td>
