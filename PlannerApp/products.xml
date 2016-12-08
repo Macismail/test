@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	
+	<product id="p02">
+		<name>Name 2</name>
+		<contact>222</contact>
+	</product>
+	<product id="p03">
+		<name>Name 3</name>
+		<contact>300</contact>
+	</product>
+	
+<product id="p01"><name>name 1</name><contact>111</contact></product></products>
