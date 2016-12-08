@@ -4,14 +4,14 @@ if(isset($_GET['action'])){
 	$id=$_GET['id'];
 	$index=0;
 	$i=0;
-	foreach($person->person as $person){
+	foreach($user->person as $person){
 		if($person['id']==$id){
 			$index=$i;
 			break;
 		}
 		$i++;
 	}
-	unset($person->person[$index]);
+	unset($user->person[$index]);
 	file_put_contents('user.xml',$person->asXML());
 }
 $person=simplexml_load_file('user.xml');
@@ -29,7 +29,7 @@ echo'<br>People to Invite';
 		<th>Email</th>
 		<th>Option</th>
 	</tr>
-	<?php foreach ($person->person as $person){ ?>
+	<?php foreach ($user->person as $person){ ?>
 	<tr>
 		<td><?php echo $person['id']; ?></td>
 		<td><?php echo $person->name; ?></td>
