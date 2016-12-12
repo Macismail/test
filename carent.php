@@ -1,5 +1,5 @@
 <?php
-session_start();
+	session_start();
 ?>
 <!DOCTYPE html> 
 <html>
@@ -153,10 +153,10 @@ session_start();
 	   							<td id="tprice"> 
 	   							<?php 
 								
-								$_SESSION['size'] = $size;
-								$_SESSION['place'] = $place;
-								$_SESSION['p_date'] = $p_date;
-								$_SESSION['time'] = $time;
+										$_SESSION['size'] = $size;
+										$_SESSION['place'] = $place;
+										$_SESSION['p_date'] = $p_date;
+										$_SESSION['time'] = $time;
 	   								if(isset($_POST['submit'])){
 	   									$size = $_POST['size'];
 	   									$days = $_POST['days'];

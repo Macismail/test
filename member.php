@@ -1,8 +1,7 @@
 <?php
-session_start();
-
-
+	session_start();
 ?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -37,31 +36,25 @@ session_start();
 					 <div class="panel-heading">
 						<div class="row-fluid">
 						<div class="controls">
-						<div class="control-group">
-						<fieldset>
-						
+						<div class="control-group">										
 	  
-	<h2>Welcome <?php echo $_SESSION['username']; ?></h2>
-	
-	Thank you for registering with Irish Car rentals. <br>
-	To show you our appreciation we offer you<br>
-	10% discount on your next transaction.<br>
-	Use the reference number:<br>
-	<?php
-	$ref_num= uniqid();
-	echo $ref_num;
-	?>
-	<br>
-	to apply your membership bonus. </br>
-	<br>
+										<h2>Welcome <?php echo $_SESSION['username']; ?></h2>
 
+										Thank you for registering with Irish Car rentals. <br>
+										To show you our appreciation we offer you<br>
+										10% discount on your next transaction.<br>
+										Use the reference number:<br>
+										<?php
+											$ref_num= uniqid();
+											echo $ref_num;
+										?>
+										<br>
+										to apply your membership bonus. </br>
+										<br> <br>
+										<a href="changepassword.php" class="btn btn-success">Change Password</a>
 
-	
-	<br>
-	<a href="changepassword.php" class="btn btn-success">Change Password</a>
-	
-	<a href="logout.php" class="btn btn-success">Logout</a>
-	<a href="index.php" class="btn btn-success">Back to Home Page</a></p>
+										<a href="logout.php" class="btn btn-success">Logout</a>
+										<a href="index.php" class="btn btn-success">Back to Home Page</a></p>
 	
 									</div>	
 							</div>	
