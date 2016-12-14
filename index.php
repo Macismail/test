@@ -96,7 +96,7 @@ session_start();
 	      		
 	      				<div class="form-group">
 	      					<label for="sel2">Pickup Date:</label>
-	      					<input Class"form-control" name ="p_date" id="p_date" type="date">	
+	      					<input Class="form-control" name ="p_date" id="p_date" type="date">	
 	      				</div>
 	      				<div class="form-group">
 	      					<label for="sel1">Rental Days:</label>
@@ -109,10 +109,10 @@ session_start();
 							</select>	      					
 	      				</div>
 	      				<div class="form-group">
-	      					<label for="sel1">Pickup Time:</label>
-	      					<input Class"form-control" name="time" id="time" type="time">
+	      					<label for="sel2">Pickup Time:</label>
+	      					<input Class="form-control" name="time" id="time" type="time">
 	      				</div>
-
+								
 	            		<button name="submit" type="submit" class="btn btn-success" >get Price</button>
 
 	      			  </form>  				
@@ -124,10 +124,9 @@ session_start();
       </div>
       <script>
       	$(documment)ready(function(){
-      		$(#p_date).datepicker;
-      		$(#time).timepicker;
-      		
-      	});
+      		$(#p_date).datetimepicker;
+      		$(#time).timepicker;   		
+						});
       	
       </script>
 	  <?php
