@@ -44,12 +44,13 @@ if(isset($_POST['change'])){
 			<h1>Car Rentals</h1>
 			<p>Irish Car Rentals offers cheap rental cars in Dublin Airport and city center</p>
 		</div>
-	  </div>and city center
+	  </div>
 	  
 	  <div class="container">
 			<div class="row">
+				<div class="col col-md-3"></div>
 				<div class="col col-md-6">
-					<div class="panel panel-success">
+					<div class="panel panel-success text-center" >
 					 <div class="panel-heading">
 						<div class="row-fluid">
 						<div class="controls">

@@ -44,8 +44,9 @@ if(isset($_POST['login'])){
 	  
 	   <div class="container">
 			<div class="row">
+				<div class="col col-md-3"></div>
 				<div class="col col-md-6">
-					<div class="panel panel-success">
+					<div class="panel panel-success text-center">
 					 <div class="panel-heading">
 						<div class="row-fluid">
 						<div class="controls">
